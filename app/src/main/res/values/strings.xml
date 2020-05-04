@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BAM Test</string>
+    <string name="pin">PIN</string>
+    <string name="pinned">PINNED</string>
+</resources>
