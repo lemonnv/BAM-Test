@@ -1,4 +1,4 @@
-package com.vincent.bamtest.data
+package com.vincent.bamtest.data.repository
 
 import com.vincent.bamtest.data.db.room.RepositoryDao
 import com.vincent.bamtest.data.github.GithubService
