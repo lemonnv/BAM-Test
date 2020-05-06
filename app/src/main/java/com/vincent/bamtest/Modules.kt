@@ -1,9 +1,9 @@
 package com.vincent.bamtest
 
 import androidx.room.Room
-import com.vincent.bamtest.data.RepoRepositoryImpl
 import com.vincent.bamtest.data.db.room.AppDatabase
 import com.vincent.bamtest.data.github.GithubService
+import com.vincent.bamtest.data.repository.RepoRepositoryImpl
 import com.vincent.bamtest.domain.repository.RepoRepository
 import com.vincent.bamtest.ui.MainViewModel
 import okhttp3.OkHttpClient
