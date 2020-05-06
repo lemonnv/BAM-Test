@@ -62,7 +62,6 @@ class MainActivity : AppCompatActivity() {
                 view = LayoutInflater.from(context).inflate(R.layout.item_repository, null)
                 view.binding = DataBindingUtil.bind(view)!!
                 view.findViewById<Button>(R.id.buttonStar).setOnClickListener {
-                    val parent = it.parent as View
                     listener.onTap(parent.binding.item!!)
                 }
             }
